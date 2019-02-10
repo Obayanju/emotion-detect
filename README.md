@@ -5,7 +5,7 @@ How to activate virtualenv
   --->
   ```pip install [WHATEVER DEPENDENCIES]```
   <hr />
-What is <strong>submit.html</strong>
+What does <strong>submit.html</strong> do?
 <ul>
   It uploads an img from user's computer and display that image
 </ul>
