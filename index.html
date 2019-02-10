@@ -9,8 +9,37 @@
   </head>
   <body>
     <h1>Welcome to our app</h1>
-    <video autoplay></video>
-    <button>click me</button>
+    <video id="gum" playsinline autoplay muted></video>
+    <video id="recorded" playsinline loop></video>
+    <div>
+      <button id="start">Start camera</button>
+      <button id="record" disabled>Start Recording</button>
+      <button id="play" disabled>Play</button>
+      <button id="download" disabled>Download</button>
+    </div>
+
+    <div>
+      <h4>Media Stream Constraints options</h4>
+      <p>Echo cancellation: <input type="checkbox" id="echoCancellation" /></p>
+    </div>
+
+    <div>
+      <span id="errorMsg"></span>
+    </div>
+
+    <!-- a shim to insulate apps from spec changes and prefix differences. -->
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
     <script src="js/app.js"></script>
+
+    <!-- <video autoplay width="100"> -->
+    <!-- Fallback -->
+    <!-- <p>Your browser doesn't support HTML5 video</p> -->
+    <!-- </video> -->
+    <!-- <video id="recorded"></video> -->
+
+    <!-- <button class="upload-video">upload video</button> -->
+    <!-- <button class="start-recording">Start recording</button>
+    <button class="stop-record">Stop recording</button>
+    <button class="play-video">Play recorded video</button> -->
   </body>
 </html>
