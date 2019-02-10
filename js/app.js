@@ -1,7 +1,7 @@
 // Most of this code is gotten from A webrtc sample
 // https://github.com/webrtc/samples/blob/gh-pages/src/content/getusermedia/record/js/main.js
 
-"use strict";
+("use strict");
 
 /* globals MediaRecorder */
 console.log(".....");
@@ -33,6 +33,21 @@ playButton.addEventListener("click", () => {
   recordedVideo.src = window.URL.createObjectURL(superBuffer);
   recordedVideo.controls = true;
   recordedVideo.play();
+
+  const canvas = document.createElement("canvas");
+  canvas.width = 640;
+  canvas.height = 480;
+  const ctx = canvas.getContext("2d");
+  // if you want to preview the captured image,
+  // attach the canvas to the DOM somewhere you can see it.
+  const screenshotBtn = document.querySelector(".take-screen-shot");
+  screenshotBtn.addEventListener("click", () => {
+    ctx.drawImage(recordedVideo, 0, 0, canvas.width, canvas.height);
+    const dataURI = canvas.toDataURL("image/jpeg");
+
+    let img = document.querySelector(".screen-shot");
+    img.src = dataURI;
+  });
 });
 
 const downloadButton = document.querySelector("button#download");
