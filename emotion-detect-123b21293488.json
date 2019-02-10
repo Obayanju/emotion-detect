@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "emotion-detect-231300",
+  "private_key_id": "123b2129348809e596aa59e698fbe7ab7c378c80",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsbseBsTZgLoTx\n25SkabTGpTRvM2SpgPusfsz9MkgiXS6LXaYEuHI6yTX4TOUyD6F4Hb+FEJuTCr1/\nIKq6MRIVQZgfPAamQNeaDjOIyTw8BJBTS9iEonDbSfbWcfeT5poThPlgnAGgg18I\nIxFhr8q1MgKijlmBjpPtbQ9sBJ0wkL6YowY0gaFYO9mP/uxyNdBDs6zOgLqQ9Kff\n3GN9JnvuK7JQnSZmlAP9o9nzMGW2XiLyaC1y62tOyBVIUVf4FSpxjbq9Cf78yjs6\nO82aDLFVh5v+rou1Um6dqZiCc+cDXmnHIG/53utSpeK+KMMcTY3Q+6zjc57PbS4K\nlWm8LfQxAgMBAAECggEACzRVlWlQ+bX8IIUepwJRY1kHy7QAtfzyHZbNtiQmyMja\nRecLayIbFhPOBHjmqbaXTOlN8RUPruHTR2f1gAzBOo1dF6Z8XiA3gkSq95fv6Ix5\nXlg+1PuDLtSjC/My3bLtzxfkZnEsr+PpcGtq7TiRiO2bezmZuk/r79EW3/N6zVV3\nFk5IPWGeSgRoaG8HVljgNQWTeTzw322aEhZ7SFNWjPsaMvYeV9nVkWXCvc8O3N9L\nMtnbdNBJkvkDejT/pWHewakO1j+wehGjcCgUTpnLUZ0btFUr9b/hPj6CiAm3ytGp\ne4ODzkrpIamJZrjcJKNC7s6pZ7QmPDz/iS0OP9uxIwKBgQDhKkuaBsmYSU3iNGS3\nnJKU0jqje/JCsIfSurcf46DFnSfhlEQV/9F1eJkOs4O7bgU4qIwNsciNPsGSV24H\ndhwnzzyHTC5pzJmDIICHPCjJbUsmjLSCTZSDw0+umYcWXQFA5AdBu/5KYchHJc3q\n0alJ1mHegrTR1ec3zN/QgqpjwwKBgQDEC9IdW6ARvJ7E5pea6thuRtWNxGO4RIxc\n7wJBPJtzgmuX3PD03tv10EGj/UoYoMRli7Zp1gLz/SyRPC76ZmiyG6usnUf8mcaG\nhJXD5/+frziutVfUJeU7q5EFzOV9v7w2rEYJjZO3TJ8GMZKMsm+hbHP7JEQrbBas\nI4YVAbsM+wKBgQDVNJ9xsYuiT4cX8lSMKA4ELSypMOwsicuSlopf/8J0XGMvDp2J\n1zoW6aLEcOcDyyHWjIJRVU55sDrKv07IceYnK+w8kL5CICIcL+KEK0rTsFHApusl\nlyBRw9bnlSh83IQbVdApRkF7XSuvcvSQrQaHjCAP+eQN7WWLSMuFPLTq0QKBgC4o\nMlIjLm6+oArv16XrwQVFvCXipS/PQ9TlmPxPDrKFdFuO81RT3Cnl3G6FxhpCT7sw\nx8PnVU6ovwN6zfy6e8/jX+oGJdq9QdaOBMzZJIAuOwQ3QfR675u66ywYb7fJmsCs\nktjQ8oRnj9FffoeNw2aYKD5q7XnjuvrQalMr0yRdAoGAUXFTLv13TxBVeldBUbPw\n7TJDGRG8f4WajRUZwlJo8yfmQPz0lmg0GE5PdpyTalwSRlPgEb2QPI+S+Yczd4m/\n2XWD3oj3z63/WgVfAtg3Zj7o/etTuNHmMzahFvJh6xkU0WFi8UUn1TrTYna6bx3s\nbMSULFOS5v7f5OI5Wr8DwQQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "austin-kao@emotion-detect-231300.iam.gserviceaccount.com",
+  "client_id": "115781086577717065829",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/austin-kao%40emotion-detect-231300.iam.gserviceaccount.com"
+}
