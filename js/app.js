@@ -1,10 +1,9 @@
-// Most of this code is gotten from A webrtc sample
+// Most of this code is gotten from A webrtc sample with a few changes
 // https://github.com/webrtc/samples/blob/gh-pages/src/content/getusermedia/record/js/main.js
 
 ("use strict");
 
 /* globals MediaRecorder */
-console.log(".....");
 const mediaSource = new MediaSource();
 mediaSource.addEventListener("sourceopen", handleSourceOpen, false);
 let mediaRecorder;
