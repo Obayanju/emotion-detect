@@ -36,6 +36,7 @@ div.recorded-videos {
 video {
   background: #222;
   margin: 0 0 20px 0;
+  width: 500px;
   /* vertical-align: top; */
   /* width: 50%;
   height: 50%; */
